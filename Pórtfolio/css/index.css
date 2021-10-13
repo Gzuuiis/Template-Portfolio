@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+  
+body{
+    background-color: rgb(6, 8, 31);
+}
+
+.headerglobal{
+    background-color: transparent;
+}
+
+#particles-js{
+    width: 99%;
+    height: 600px;
+}
+.title{
+    font-size: 43pt;
+    position: absolute;
+    color: white;
+    text-align: left;
+    margin-top: 180px;
+    cursor: default;
+
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: .20em;
+    animation: title 4.0s steps(30,end)
+}
+@keyframes title {
+    from{width: 0;}
+    to{width: 100%;}
+}
+
+/* Divider CSS*/
+.divider{
+    letter-spacing: .2em;
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 66, 165);
+    text-align: center;
+    margin-bottom: 1.3em;
+}
+
+/* Projects Area CSS */
+#projects{
+    margin-bottom: 5em;
+    border-top-left-radius: 3em;
+}
+.card{
+    height: 200px;
+    margin-top: 0.5em;
+}
+
+/* About CSS */
+.peopleimg{
+    height: 500px;
+    width: 250px;
+    color: white;
+    text-align: center;
+}
+
+.boxabout{
+    color: white;
+}
+
+/* Contact Area All Css */
+
+#contact{
+    color: white;
+}
+.text-contact{
+    text-align: center;
+}
+.box_title-contact{
+    width: 210px;
+    margin: auto;
+}
+.title-contact{
+    margin-left: 20px;
+    font-size: 25pt;
+    cursor: default;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: .15em;
+
+    animation: title-contact 2.0s steps(30,end)
+}
+@keyframes title-contact{
+    from{width: 0;}
+    to{width: 100%;}
+}
+.contactarea input{
+    color: white;
+    margin: auto;
+    box-shadow: 0;
+    border: 0;
+    width: 70%;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.283);
+}
+.contactarea input:focus{
+    color: white;
+    box-shadow: 0;
+    border: 0;
+    background-color: transparent;
+}
+.boxInfo{
+    color: white;
+    margin: auto;
+    margin-top: 0.9em;
+}
+.boxTextArea{
+    color: white;
+    border: 0;
+    box-shadow: 0;
+    resize: none;
+    width: 650px;
+    margin: 0.9em auto;
+    border-bottom: 2px solid rgb(0, 86, 109);
+    background-color: rgba(255, 255, 255, 0.023);
+}
+.boxTextArea:focus{
+    color: white;
+    border: 0;
+    box-shadow: 0;
+    background-color: rgba(255, 255, 255, 0.119);
+}
+.inputSubmit{
+    margin: auto;
+}
+
+/* Footer */
+footer{
+    margin-top: 50px;
+    border-top: 2px solid rgb(0, 86, 109);
+ }
+ 
